@@ -1,16 +1,16 @@
+// import React from 'react'
+import React from "react"
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-import {useState} from "react"
 
 export default function Button() {
-   const[count,setCount]=useState(0)
+   const[count,setCount]=React.useState(0)
 //    console.log("first")
    const handleInc=()=>{
        setCount(count+1)
-       
    }
    const handleDInc=()=>{
-       setCount(count+2)
-       
+       setCount(count*2)   
    }
    const handleDec=()=>{
        setCount(count-1)
@@ -20,11 +20,11 @@ export default function Button() {
        setCount(count-2)
        
    }
-//    console.log("second")
+
   return (
       <>
     <div>
-        <h1>
+        <h1 className="btn  btn-success m-5">
          {count}
         </h1>
         <button onClick={()=>handleInc(2)}>INCREMENT</button>

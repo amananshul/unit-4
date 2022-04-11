@@ -2,7 +2,8 @@
 import './App.css';
 // import List from './List';
 // import EmployeDetails from './Employe';
-import Button from './Button'
+import Buttons from './Button'
+// import Badge from "react-bootstrap/Badge";
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
     <div>
    
     {/* <List/> */}
-    <Button/>
+    <Buttons/>
     {/* <EmployeDetails/> */}
     </div>
   
