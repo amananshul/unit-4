@@ -1,0 +1,9 @@
+data={
+    todos:[
+        {
+            id:1,
+            name="React",
+            Task="completed"
+        }
+    ]
+}

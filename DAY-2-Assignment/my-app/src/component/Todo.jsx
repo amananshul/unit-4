@@ -22,6 +22,15 @@ import {nanoid} from 'nanoid'
      let updatedList = todo.filter(elem=>elem.id!=item.id)
      setTodo(updatedList)
     }
+
+    const getTodos=async()=>{
+      try {
+        let res=await fetch("")
+        let data=await res.json
+      } catch (error) {
+        
+      }
+    
   return (
     <>
         <input type={"task"} value={task} placeholder="enter task" onChange={handleChange}/>
