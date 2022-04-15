@@ -1,9 +1,14 @@
-data={
-    todos:[
+{
+    "todos" : [
         {
-            id:1,
-            name="React",
-            Task="completed"
+            "id": 1,
+            "value": "react",
+            "completed": false
+        },
+        {
+            "id": 2,
+            "value": "vdom",
+            "completed": false
         }
     ]
 }
