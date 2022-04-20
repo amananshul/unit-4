@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+}
+
+.form{
+  background-color: aqua;
+  display:grid;
+  grid-template-columns:repeat(1,1fr)
+}
