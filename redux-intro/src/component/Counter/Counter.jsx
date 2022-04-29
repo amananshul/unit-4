@@ -1,11 +1,14 @@
 import React from 'react'
 import { useSelector } from 'react-redux'
-import {incrementCounter,decrementCounter,product,divide} from '../store/actions'
+import {incrementCounter,decrementCounter,product,divide} from '../../store/actions'
 import {useDispatch} from 'react-redux'
 const Counter = () => {
     const count =useSelector((state)=>state.count)
  const dispatch=useDispatch()
   return (
+
+
+    
         <div>
           Counter:{count}
       
